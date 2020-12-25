@@ -1,0 +1,12 @@
+.nav{
+
+    background-color: rgb(247, 238, 238);
+    font-style: bold;
+    color: black;
+    font-size: 26px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 18vh;
+}

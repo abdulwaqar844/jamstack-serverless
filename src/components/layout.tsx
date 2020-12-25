@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import { Link } from "gatsby";
-
+import styles from "./layout.module.css"
 type LayoutProps = {
   children: ReactNode
 }
@@ -9,7 +9,7 @@ export default ({ children }: LayoutProps) => {
   return (
     <div style={{  textAlign: "center", }} >
       <h1 >First Gatsby Website</h1>
-      <div className="menu">
+      <div className={styles.nav}>
         <Link to="/">Home</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/about">About</Link>
