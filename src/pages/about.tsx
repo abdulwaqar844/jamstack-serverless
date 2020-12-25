@@ -15,7 +15,7 @@ const about = () => {
                  <br />
                  JAMStack serverless Web Applications , Mobile Natice Application and much more.
              </h4>
-               
+
             </Layout>
 
 
