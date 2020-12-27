@@ -14,9 +14,7 @@ export default ({ children }: LayoutProps) => {
         <Link to="/contact">Contact</Link>
         <Link to="/about">About</Link>
         <Link to="/project">Projects</Link>
-        <br/>
-        <Link to="/profile">Profile</Link>
-
+        
       </div>
 
       {children}
