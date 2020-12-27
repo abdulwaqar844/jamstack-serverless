@@ -14,10 +14,14 @@ export default ({ children }: LayoutProps) => {
         <Link to="/contact">Contact</Link>
         <Link to="/about">About</Link>
         <Link to="/project">Projects</Link>
+        <br/>
+        <Link to="/app">Page</Link>
 
       </div>
 
       {children}
+      <div       >
+        Website Developed by Abdul Waqar</div>
     </div>
   )
 }
