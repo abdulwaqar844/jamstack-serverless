@@ -1,7 +1,7 @@
 import React from "react";
 let Hi =()=>{
 return(
-    <div>Hello To gatsby World</div>
+    <div>Hello World From New Gatsby Project</div>
 )
 }
 export default  Hi;
