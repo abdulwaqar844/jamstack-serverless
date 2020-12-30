@@ -1,12 +1,29 @@
 .nav{
 
-    background-color: rgb(247, 238, 238);
-    font-style: bold;
-    color: black;
-    font-size: 26px;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    height: 18vh;
+  padding: 10px;
+  justify-content: space-around;
 }
+
+.header{
+    margin: auto;
+    justify-content: space-between;
+    margin: 0px;
+display: flex;
+flex-direction: row;
+width: 100%;
+background-color: rgb(223, 142, 192);
+
+
+}
+.item{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+color: whitesmoke;
+
+
+}
+
+  .item:hover {
+    background-color: lightgreen;
+  }

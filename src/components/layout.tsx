@@ -7,16 +7,19 @@ type LayoutProps = {
 
 export default ({ children }: LayoutProps) => {
   return (
-    <div style={{  textAlign: "center", }} >
-      <h1 >First Gatsby Website</h1>
+    <div>
+    <div className={styles.header} >
+      <div><h1 >First Gatsby Website</h1>
+      </div>
+      
       <div className={styles.nav}>
-        <Link to="/">Home</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/about">About</Link>
-        <Link to="/project">Projects</Link>
+        <Link className={styles.item} to="/">Home</Link>
+        <Link className={styles.item} to="/contact">Contact</Link>
+        <Link className={styles.item} to="/about">About</Link>
+        <Link className={styles.item} to="/project">Projects</Link>
 
       </div>
-
+      </div>
       {children}
     </div>
   )
