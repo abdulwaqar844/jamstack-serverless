@@ -5,8 +5,9 @@ const about = () => {
     return (
         <div>
             <Layout>
-                <h1 className={styles.head}>About me </h1>
-                <h3 className={styles.introdetail}>
+                <div className={styles.text}>
+                <h1 >About me </h1>
+                <h3>
                     My Name is Abdul Waqar. <br />
                     I have completed my Graduation In Computer Science <br />
                     form VU. </h3>
@@ -16,7 +17,7 @@ const about = () => {
                  <br />
                  JAMStack serverless Web Applications , Mobile Natice Application and much more.
              </h4>
-
+</div>
             </Layout>
 
 

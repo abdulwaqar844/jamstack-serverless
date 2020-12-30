@@ -21,6 +21,9 @@ export default ({ children }: LayoutProps) => {
       </div>
       </div>
       {children}
+      <div className={styles.footer}>
+<p>Website Developed by WAQAR</p>
+      </div>
     </div>
   )
 }
